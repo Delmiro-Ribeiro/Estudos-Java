@@ -1,5 +1,5 @@
 package Fundamentos;
-//Programa principal
+//Programa principal...
 public class PrimeiroPrograma {
 	
 	public static void main(String[] args) {
