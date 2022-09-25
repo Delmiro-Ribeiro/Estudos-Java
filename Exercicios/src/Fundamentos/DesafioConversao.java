@@ -16,13 +16,13 @@ public class DesafioConversao {
          Scanner entrada = new Scanner(System.in);
 
          System.out.print("Digite o ultimo salario: ");
-         String ultimo = entrada.nextLine();
+         String ultimo = entrada.nextLine().replace(",", ".");//nextLine();
 
          System.out.print("\nDigite o penultimo salario: ");
-         String penultimo = entrada.nextLine();
+         String penultimo = entrada.nextLine().replace(",", ".");//nextLine();
 
          System.out.print("\nDigite o antepenultimo salario: ");
-         String antepeniltimo = entrada.nextLine();
+         String antepeniltimo = entrada.nextLine().replace(",", ".");//nextLine();
 
          double ultimo1 = Double.parseDouble(ultimo);
          double penultimo2 = Double.parseDouble(penultimo);
