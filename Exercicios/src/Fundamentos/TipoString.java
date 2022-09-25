@@ -10,6 +10,6 @@ public class TipoString {
         //Muitas funções String disponiveis com a notação ponto , 
         // que apesar de querer colocar aqui só que ficará algo muito massante
         //comando para verificar as opções de funcionalidade e acima : S.(funcionalidade a ser escolida).
-
+        
     }
 }
