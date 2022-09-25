@@ -9,3 +9,7 @@ tendo em vista que com progresso dos estudo e merge sendo feitos a master(main) 
 Branch feature.1: branch que concentraos exercicios das atividades propostas.
 
 Curso ministrado por Leonando Leitão - curso Java da Cod3r escola de programação.
+
+Um pouco sobre Logica:
+
+    
