@@ -15,7 +15,7 @@ public class DesafioWhile {
             nota = entrada.nextDouble();
 
             if(nota <= 10 && nota >= 0){
-                total += nota;// acu
+                total += nota;// 
                 quantidadesNotas++;//acumulando a quantidade de notas
             }else if(nota != -1){
                 System.out.println("Nota inválida!!");
