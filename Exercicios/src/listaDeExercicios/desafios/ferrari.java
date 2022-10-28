@@ -1,6 +1,6 @@
 package listaDeExercicios.desafios;
 
-public class ferrari extends carro {
+public class ferrari extends carro implements esportivo{
 
     public ferrari(int velocidadeAtual, int velocidade_maxima, int delta){
         super(velocidadeAtual,velocidade_maxima,delta);
@@ -19,6 +19,16 @@ public class ferrari extends carro {
     void acelerar(){
         super.acelerar();
 
+    }
+
+    @Override
+    public void ligarTurbo() {
+        delta = 35;
+    }
+
+    @Override
+    public void desligarTurbo() {
+        delta = 15;
     }
 
 }
