@@ -1,9 +1,16 @@
 package Fundamentos;
 
+import java.util.Scanner;
+
 public class AreaCircunferencia{
     public static void main(String[] args) {
-        double raio = 3.4;
         final double PI = 3.1419;
+
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.print("Digite o raio: ");
+        double raio = sc.nextDouble();
+
 
         double area = PI * raio * raio;
         System.out.println(area);
@@ -13,6 +20,8 @@ public class AreaCircunferencia{
 
         raio = 10;
         area = PI * area * area;
-        System.out.println("Área = " + area + "m2");
+        System.out.printf("Área = %.2f m2",area);
+
+        sc.close();
     }
 }
