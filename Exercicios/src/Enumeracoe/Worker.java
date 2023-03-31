@@ -3,6 +3,9 @@ package Enumeracoe;
 import Enumeracoe.Contracts.HourContract;
 import Enumeracoe.enums.WorkerLevel;
 
+import java.time.Month;
+import java.time.Year;
+
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
