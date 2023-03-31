@@ -17,7 +17,9 @@ public class Worker {
     private Depertament departement;
     private List<HourContract> contracts = new ArrayList<>();
 
-    public  Worker(){}
+    public  Worker(){
+
+    }
 
     public Worker(String name, WorkerLevel level, Double baseSalary, Depertament departement) {
         this.name = name;
@@ -65,7 +67,7 @@ public class Worker {
     public  void addContracts(HourContract contract){
         contracts.add(contract);
     }
-
+    //sim
     public  void removeContracts(HourContract contract){
         contracts.remove(contract);
     }
