@@ -4,8 +4,7 @@ public class Depertament {
 
     private String name;
 
-    public Departament(){
-    }
+
     public Depertament(String name) {
         this.name = name;
     }
