@@ -22,9 +22,9 @@ public class Worker {
 
     }
 
-    public Worker(String name, WorkerLevel level, Double baseSalary, Depertament departement) {
+    public Worker(String name, String string, Double baseSalary, Depertament departement) {
         this.name = name;
-        this.level = level;
+        this.level = string;
         this.baseSalary = baseSalary;
         this.departement = departement;
     }
@@ -37,7 +37,7 @@ public class Worker {
         this.name = name;
     }
 
-    public WorkerLevel getLevel() {
+    public String getLevel() {
         return level;
     }
 
@@ -75,7 +75,7 @@ public class Worker {
 
     public Double icome(int year, int month){
         double sum = baseSalary;
-        Calendar cal = new Calendar.getInstance();
+        Calendar cal = new Calendar();
         for (HourContract c : contracts ){
             cal.setTime(c.getDate());
             int c_year = cal.get(Calendar.YEAR);

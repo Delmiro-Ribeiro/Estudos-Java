@@ -29,7 +29,7 @@ public class Program {
         System.out.print("Base salary:  ");
         double baseSalary = sc.nextDouble();
 
-        Worker worker = new Worker(workeName,WorkLevel.valueOf(workLevel),baseSalary,new Depertament(departmentName));
+             Worker worker = new Worker(workeName,String.valueOf(workLevel),baseSalary,new Depertament(departmentName));
 
         System.out.print("How many contracts to this worker? ");
         int n = sc.nextInt();
