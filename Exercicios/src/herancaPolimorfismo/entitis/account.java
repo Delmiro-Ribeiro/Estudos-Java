@@ -3,7 +3,7 @@ package herancaPolimorfismo.entitis;
 public class account {
     private Integer number;
     private String holder;
-    private Double balance;
+    protected Double balance;
 
     public account(){
 
