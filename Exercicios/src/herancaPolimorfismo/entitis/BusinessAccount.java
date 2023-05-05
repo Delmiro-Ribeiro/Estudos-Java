@@ -12,4 +12,15 @@ public class BusinessAccount extends account {
     public void withdraw(double amount) {
         balance -= amount;
     }
+
+    public Double getLoadLimit() {
+        return loadLimit;
+    }
+
+    public void setLoadLimit(Double loadLimit) {
+        this.loadLimit = loadLimit;
+    }
+
+
+    
 }
